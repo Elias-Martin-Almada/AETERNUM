@@ -1,0 +1,154 @@
+﻿body {
+}
+
+/* Ejemplo para Combinar con Bootstrap */
+.btn-custom {
+    background-color: #c2fbd7;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px;
+    color: green;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+    .btn-custom:hover {
+        box-shadow: rgba(44, 187, 99, .35) 0 -25px 18px -14px inset, rgba(44, 187, 99, .25) 0 1px 2px, rgba(44, 187, 99, .25) 0 2px 4px, rgba(44, 187, 99, .25) 0 4px 8px, rgba(44, 187, 99, .25) 0 8px 16px, rgba(44, 187, 99, .25) 0 16px 32px;
+        transform: scale(1.05) rotate(-1deg);
+        background-color: #c2fbd7;
+    }
+/* Boton Azul */
+.btn-custom-azul {
+    background-color: #00a3ff;
+    border-radius: 100px;
+    box-shadow: rgba(0, 163, 255, .2) 0 -25px 18px -14px inset, rgba(0, 163, 255, .15) 0 1px 2px, rgba(0, 163, 255, .15) 0 2px 4px, rgba(0, 163, 255, .15) 0 4px 8px, rgba(0, 163, 255, .15) 0 8px 16px, rgba(0, 163, 255, .15) 0 16px 32px;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+    .btn-custom-azul:hover {
+        box-shadow: rgba(0, 163, 255, .35) 0 -25px 18px -14px inset, rgba(0, 163, 255, .25) 0 1px 2px, rgba(0, 163, 255, .25) 0 2px 4px, rgba(0, 163, 255, .25) 0 4px 8px, rgba(0, 163, 255, .25) 0 8px 16px, rgba(0, 163, 255, .25) 0 16px 32px;
+        transform: scale(1.05) rotate(-1deg);
+        background-color: #00a3ff;
+    }
+
+/* Boton Rojo */
+.btn-custom-rojo {
+    background-color: #ff4040; /* Color rojo */
+    border-radius: 100px;
+    box-shadow: rgba(255, 0, 0, .2) 0 -25px 18px -14px inset, rgba(255, 0, 0, .15) 0 1px 2px, rgba(255, 0, 0, .15) 0 2px 4px, rgba(255, 0, 0, .15) 0 4px 8px, rgba(255, 0, 0, .15) 0 8px 16px, rgba(255, 0, 0, .15) 0 16px 32px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+    .btn-custom-rojo:hover {
+        box-shadow: rgba(255, 0, 0, .35) 0 -25px 18px -14px inset, rgba(255, 0, 0, .25) 0 1px 2px, rgba(255, 0, 0, .25) 0 2px 4px, rgba(255, 0, 0, .25) 0 4px 8px, rgba(255, 0, 0, .25) 0 8px 16px, rgba(255, 0, 0, .25) 0 16px 32px;
+        transform: scale(1.05) rotate(-1deg);
+        background-color: #ff4040; /* Color rojo */
+    }
+
+/* Para los links de paso de Paginas ej home, lista, favoritos*/
+.nav-link {
+    color: #c2fbd7; /* Cambia el color del texto */
+    font-weight: bold; /* Agrega negrita */
+    text-decoration: none; /* Elimina la subrayado por defecto de los enlaces */
+    transition: color 250ms; /* Agrega una transición de color suave */
+}
+
+    .nav-link:hover {
+        color: #44bb63; /* Cambia el color del texto al pasar el cursor sobre los enlaces */
+    }
+
+.custom-link {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 250ms;
+}
+
+.custom-link:hover {
+    color: #44bb63;
+}
+
+/* Estilo para los botones de paginación Grilla */
+.custom-pager {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.custom-pager a, .custom-pager span {
+    padding: 5px 10px;
+    margin: 2px;
+    border: 1px solid #ccc;
+    background-color: #c2fbd7;
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+}
+
+.custom-pager a:hover {
+    background-color: #00a3ff;
+    color: #fff;
+}
+
+.custom-pager span.current {
+    background-color: #337ab7;
+    color: #fff;
+}
+
+/* CSS: Ejemplo Internet  */
+/*.button-33 {
+    background-color: #c2fbd7;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color: green;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-33:hover {
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}*/

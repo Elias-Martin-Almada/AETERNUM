@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catálogo Web", "Catálogo Web\Catálogo Web.csproj", "{309D615F-02EC-4413-8AE5-50F19678AEBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "dominio\Dominio.csproj", "{BBE914E9-29B9-4080-9457-667A4DA8B33F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controlador", "datos\Controlador.csproj", "{A846421B-90FD-4059-A83A-E7285DFADF5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{309D615F-02EC-4413-8AE5-50F19678AEBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{309D615F-02EC-4413-8AE5-50F19678AEBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{309D615F-02EC-4413-8AE5-50F19678AEBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{309D615F-02EC-4413-8AE5-50F19678AEBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBE914E9-29B9-4080-9457-667A4DA8B33F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBE914E9-29B9-4080-9457-667A4DA8B33F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBE914E9-29B9-4080-9457-667A4DA8B33F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBE914E9-29B9-4080-9457-667A4DA8B33F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A846421B-90FD-4059-A83A-E7285DFADF5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A846421B-90FD-4059-A83A-E7285DFADF5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A846421B-90FD-4059-A83A-E7285DFADF5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A846421B-90FD-4059-A83A-E7285DFADF5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {860084F2-E460-487B-9E0F-234E673FFC24}
+	EndGlobalSection
+EndGlobal
